@@ -1,0 +1,50 @@
+body {
+  text-align: center;
+  background-color: #EEE;
+}
+
+.box {
+  margin: 0 auto;
+  background-color: white;
+  width: 600px;
+  padding: 10px;
+  border: 2px solid #DDD;
+}
+
+button {
+  background-color: #2317c5;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.btn-green {
+  background-color: #47bd4c;
+}
+
+.box > .boxHeader {
+  background-color: #26b6b7;
+  padding: 8px;
+  margin: 0 -10px 10px -10px;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+input, select {
+  margin: 2px 0;
+}
+
+.msg-success {
+  background-color: #3ecc3e;
+  color: white;
+  font-weight: 400;
+  font-size: 20px;
+  border-radius: 2px;
+  margin-bottom: 6px;
+  border: 2px solid #50b750;
+  opacity: .8;
+  padding-top: 4px;
+}
